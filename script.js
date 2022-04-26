@@ -184,7 +184,7 @@
                     ghost2.src = "img/2-귀신.svg";
                     ghost2.style.width = "14rem"
                     ghost2.style.height = "15rem"
-                },2000
+                },100
             )
         }else{}
     };
