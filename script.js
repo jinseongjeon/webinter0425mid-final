@@ -177,13 +177,13 @@
     ghost2touch.onclick = function(){
         if(weaponBtn.innerText === "해제하기"){
             ghost2.src = "img/hitghost.png";
-            ghost2.style.width = "16.8rem"
-            ghost2.style.height = "21.2rem"
+            ghost2.style.width = "16.8rem";
+            ghost2.style.height = "21.2rem";
             setTimeout(
                 function(){
                     ghost2.src = "img/2-귀신.svg";
-                    ghost2.style.width = "14rem"
-                    ghost2.style.height = "15rem"
+                    ghost2.style.width = "14rem";
+                    ghost2.style.height = "15rem";
                 },100
             )
         }else{}
